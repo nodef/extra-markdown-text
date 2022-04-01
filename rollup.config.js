@@ -1,4 +1,3 @@
-import {externals} from "rollup-plugin-node-externals";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import cleanup from "rollup-plugin-cleanup";
@@ -20,7 +19,7 @@ export default [{
     format: "cjs",
     exports: "auto"
   },
-  plugins: [externals(), resolve(), commonjs(), cleanup({comments: "none"})]
+  plugins: [resolve(), commonjs(), cleanup({comments: "none"})]
 }, {
   input: ".build/index.js",
   output: {
@@ -28,5 +27,5 @@ export default [{
     format: "es",
     exports: "auto"
   },
-  plugins: [externals(), resolve(), commonjs(), cleanup({comments: "none"})]
+  plugins: [resolve(), commonjs(), cleanup({comments: "none"})]
 }];
