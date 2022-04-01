@@ -15,17 +15,45 @@ is exposed as `extra_markdown_text` standalone variable and can be loaded from
 <br>
 
 ```javascript
-const path = require('extra-markdown-text');
+const fs       = require('fs');
+const markdown = require('extra-markdown-text');
 
 function main() {
-  path.filename('/home/user/file+name.txt');
-  // → file+name
+  var txt = fs.readFileSync('README.md', 'utf8').replace(/\r?\n/, '\n');
 
-  path.symbolname('/home/user/file+name.txt');
-  // → file_name
+  markdown.links(txt);
+  // [
+  //   {
+  //     full: '[Node.js](https://www.npmjs.com/package/extra-markdown-text)',
+  //     name: 'Node.js',
+  //     reference: '',
+  //     url: 'https://www.npmjs.com/package/extra-markdown-text'
+  //   },
+  //   {
+  //     full: '[Web](https://www.npmjs.com/package/extra-markdown-text.web)',
+  //     name: 'Web',
+  //     reference: '',
+  //     url: 'https://www.npmjs.com/package/extra-markdown-text.web'
+  //   },
+  //   ...
+  // ]
 
-  path.symbolname('/home/user/file+name.txt');
-  // → file-name
+  markdown.linkReferences(txt);
+  // [
+  //   {
+  //     full: '[jsDelivr CDN]: https://cdn.jsdelivr.net/npm/extra-markdown-text.web/index.js',
+  //     name: 'jsDelivr CDN',
+  //     url: 'https://cdn.jsdelivr.net/npm/extra-markdown-text.web/index.js',
+  //     title: ''
+  //   },
+  //   {
+  //     full: '[forEachCodeBlock]: https://nodef.github.io/extra-markdown-text/modules.html#forEachCodeBlock',
+  //     name: 'forEachCodeBlock',
+  //     url: 'https://nodef.github.io/extra-markdown-text/modules.html#forEachCodeBlock',
+  //     title: ''
+  //   },
+  //   ...
+  // ]
 }
 main();
 ```
