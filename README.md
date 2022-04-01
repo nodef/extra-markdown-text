@@ -36,18 +36,39 @@ main();
 
 ## Index
 
-| Property      | Description                      |
-| ------------- | -------------------------------- |
-| [filename]    | Get file name without extension. |
-| [symbolname]  | Get symbol name for file.        |
-| [keywordname] | Get keyword name for file.       |
+| Property | Description |
+|  ----  |  ----  |
+| [forEachCodeBlock] | Match code blocks in markdown text. |
+| [codeBlocks] | Get code blocks in markdown text. |
+| [replaceCodeBlocks] | Replace code blocks in markdown text. |
+| [tagCodeBlocks] | Tag code blocks in markdown text and remove them. |
+| [untagCodeBlocks] | Untag code blocks in markdown text by adding them back. |
+| [forEachLink] | Match links in markdown text. |
+| [links] | Get links in markdown text. |
+| [replaceLinks] | Replace links in markdown text. |
+| [forEachLinkReference] | Match link references in markdown text. |
+| [linkReferences] | Get link references in markdown text. |
+| [replaceLinkReferences] | Replace link references in markdown text. |
+| [forEachTable] | Match tables in markdown text. |
+| [tables] | Get tables in markdown text. |
+| [replaceTables] | Replace tables in markdown text. |
 
 <br>
 <br>
 
-[![](https://img.youtube.com/vi/8oXhShuIjrQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=8oXhShuIjrQ)
+[![](https://img.youtube.com/vi/bJirgZjBqNg/maxresdefault.jpg)](https://www.youtube.com/watch?v=bJirgZjBqNg)
 
-
-[filename]: https://nodef.github.io/extra-markdown-text/modules.html#filename
-[symbolname]: https://nodef.github.io/extra-markdown-text/modules.html#symbolname
-[keywordname]: https://nodef.github.io/extra-markdown-text/modules.html#keywordname
+[forEachCodeBlock]: https://nodef.github.io/extra-markdown-text/modules.html#forEachCodeBlock
+[codeBlocks]: https://nodef.github.io/extra-markdown-text/modules.html#codeBlocks
+[replaceCodeBlocks]: https://nodef.github.io/extra-markdown-text/modules.html#replaceCodeBlocks
+[tagCodeBlocks]: https://nodef.github.io/extra-markdown-text/modules.html#tagCodeBlocks
+[untagCodeBlocks]: https://nodef.github.io/extra-markdown-text/modules.html#untagCodeBlocks
+[forEachLink]: https://nodef.github.io/extra-markdown-text/modules.html#forEachLink
+[links]: https://nodef.github.io/extra-markdown-text/modules.html#links
+[replaceLinks]: https://nodef.github.io/extra-markdown-text/modules.html#replaceLinks
+[forEachLinkReference]: https://nodef.github.io/extra-markdown-text/modules.html#forEachLinkReference
+[linkReferences]: https://nodef.github.io/extra-markdown-text/modules.html#linkReferences
+[replaceLinkReferences]: https://nodef.github.io/extra-markdown-text/modules.html#replaceLinkReferences
+[forEachTable]: https://nodef.github.io/extra-markdown-text/modules.html#forEachTable
+[tables]: https://nodef.github.io/extra-markdown-text/modules.html#tables
+[replaceTables]: https://nodef.github.io/extra-markdown-text/modules.html#replaceTables
