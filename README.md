@@ -84,7 +84,9 @@ main();
 <br>
 <br>
 
-[![](https://img.youtube.com/vi/bJirgZjBqNg/maxresdefault.jpg)](https://www.youtube.com/watch?v=bJirgZjBqNg)
+[![](https://img.youtube.com/vi/bJirgZjBqNg/maxresdefault.jpg)](https://www.youtube.com/watch?v=bJirgZjBqNg)<br>
+[![DOI](https://zenodo.org/badge/476812269.svg)](https://zenodo.org/badge/latestdoi/476812269)
+
 
 [forEachCodeBlock]: https://nodef.github.io/extra-markdown-text/modules.html#forEachCodeBlock
 [codeBlocks]: https://nodef.github.io/extra-markdown-text/modules.html#codeBlocks
