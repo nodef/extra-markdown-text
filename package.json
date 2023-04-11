@@ -1,6 +1,6 @@
 {
   "name": "extra-markdown-text",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Utility methods for Markdown text.",
   "main": "index.js",
   "module": "index.mjs",
@@ -31,11 +31,11 @@
   },
   "homepage": "https://github.com/nodef/extra-markdown-text#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^24.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@types/node": "^18.11.18",
-    "extra-build": "^2.2.40",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@types/node": "^18.15.11",
+    "extra-build": "^2.2.41",
     "rollup-plugin-cleanup": "^3.2.1",
-    "rollup-plugin-dts": "^5.1.1"
+    "rollup-plugin-dts": "^5.3.0"
   }
 }

@@ -15,13 +15,13 @@ is exposed as `extra_markdown_text` standalone variable and can be loaded from
 <br>
 
 ```javascript
-const fs       = require('fs');
-const markdown = require('extra-markdown-text');
+const fs        = require('fs');
+const xmarkdown = require('extra-markdown-text');
 
 function main() {
   var txt = fs.readFileSync('README.md', 'utf8').replace(/\r?\n/, '\n');
 
-  markdown.links(txt);
+  xmarkdown.links(txt);
   // [
   //   {
   //     full: '[Node.js](https://www.npmjs.com/package/extra-markdown-text)',
@@ -38,7 +38,7 @@ function main() {
   //   ...
   // ]
 
-  markdown.linkReferences(txt);
+  xmarkdown.linkReferences(txt);
   // [
   //   {
   //     full: '[jsDelivr CDN]: https://cdn.jsdelivr.net/npm/extra-markdown-text.web/index.js',
