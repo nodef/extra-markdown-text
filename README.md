@@ -87,7 +87,7 @@ main();
 [![](https://img.youtube.com/vi/bJirgZjBqNg/maxresdefault.jpg)](https://www.youtube.com/watch?v=bJirgZjBqNg)<br>
 [![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
 [![DOI](https://zenodo.org/badge/476812269.svg)](https://zenodo.org/badge/latestdoi/476812269)
-
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/extra-markdown-text)
 
 [forEachCodeBlock]: https://nodef.github.io/extra-markdown-text/modules.html#forEachCodeBlock
 [codeBlocks]: https://nodef.github.io/extra-markdown-text/modules.html#codeBlocks
